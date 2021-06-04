@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best meme generator Sarah has ever made.">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Meme Generator</h1>
+            <h2>Add photos and text to make your own memes!</h2>
+        </header>
+
+        <section class="form">
+            <form action="#">
+                <div>
+                    <label for="url">image url</label>
+                    <input type="text" name="URL" id="url" placeholder="what is the url for your meme image?">
+                </div>
+                <div>
+                    <label for="top-line">top text</label>
+                    <input type="text" name="top-line" id="top-line" placeholder="top line text (optional)">
+                </div>
+                <div>
+                    <label for="bottom-line">bottom text</label>
+                    <input type="text" name="bottom-line" id="bottom-line" placeholder="bottom line text (optional)">
+                </div>
+                <div>
+                    <button type="submit">make it!</button>
+                </div>
+            </form>
+        </section>
+
+        <main>
+            <div class="meme-frame">
+                <div class="meme-body">
+                    <p class="top-text">Grumpy Cat</p>
+                    <p class="close">&times;</p>
+                    <p class="bottom-text">demands more memes</p>
+                </div>
+            </div>  
+        
+        </main>
+
+    </div>
+
+    <script src="meme.js"></script>
+
+</body>
+
+</html>
